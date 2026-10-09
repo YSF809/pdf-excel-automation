@@ -1,0 +1,29 @@
+# Local inputs and generated outputs may contain client/private data.
+input_files/
+output/
+outputs/
+reports/
+*.pdf
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Credentials and machine-specific files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
